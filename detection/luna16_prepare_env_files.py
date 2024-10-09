@@ -17,7 +17,7 @@ import sys
 
 def main():
     #  ------------- Modification starts -------------
-    raw_data_base_dir = "/kaggle/input/lung-cancer/3723295"  # the directory of the raw images
+    raw_data_base_dir = "/kaggle/input/lung-cancer/3723295/subset0/subset0"  # the directory of the raw images
     resampled_data_base_dir = "/kaggle/working"  # the directory of the resampled images
     downloaded_datasplit_dir = "/kaggle/input/lung-cancer-json/LUNA16_datasplit"  # the directory of downloaded data split files
 
