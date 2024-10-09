@@ -17,9 +17,9 @@ import sys
 
 def main():
     #  ------------- Modification starts -------------
-    raw_data_base_dir = "/orig_datasets/"  # the directory of the raw images
-    resampled_data_base_dir = "/datasets/"  # the directory of the resampled images
-    downloaded_datasplit_dir = "LUNA16_datasplit"  # the directory of downloaded data split files
+    raw_data_base_dir = "/kaggle/input/lung-cancer/3723295"  # the directory of the raw images
+    resampled_data_base_dir = "/kaggle/working"  # the directory of the resampled images
+    downloaded_datasplit_dir = "/kaggle/input/lung-cancer-json/LUNA16_datasplit"  # the directory of downloaded data split files
 
     out_trained_models_dir = "trained_models"  # the directory to save trained model weights
     out_tensorboard_events_dir = "tfevent_train"  # the directory to save tensorboard training curves
